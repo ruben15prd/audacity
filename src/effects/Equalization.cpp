@@ -197,7 +197,7 @@ bool EffectEqualization::VisitSettings(
    {
       curves[0].points.clear();
 
-      for (int i = 0; i < 200; i++)
+      for (int i = 0; i < 5000; i++)
       {
          const wxString nameFreq = wxString::Format("f%i",i);
          const wxString nameVal = wxString::Format("v%i",i);
